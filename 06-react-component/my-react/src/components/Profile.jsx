@@ -16,3 +16,4 @@ function Profile({ name, description, img }) {
 }
 
 export default Profile;
+

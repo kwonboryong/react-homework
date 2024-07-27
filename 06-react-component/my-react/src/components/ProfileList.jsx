@@ -24,4 +24,4 @@ function ProfileList() {
   )
 }
 
-export default ProfileList
+export default ProfileList;
