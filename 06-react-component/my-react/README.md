@@ -4,6 +4,8 @@
 
 ## 📌 Figma 시안 제작
 
+[Figma 시안](https://www.figma.com/design/HNZN3IHM0oOe506HB2cZE9/%EC%95%84%ED%86%A0%EB%AF%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%94%BC%EA%B7%B8%EB%A7%88-%EC%8B%9C%EC%95%88?node-id=0-1&t=UjBzWpt8LzkXq4TV-1)
+
 ![아토미 컴포넌트 피그마 시안](https://github.com/user-attachments/assets/32d548ac-f150-48d3-995a-758f61d8b03e)
 
 <br/>
