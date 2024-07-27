@@ -1,7 +1,7 @@
-// import React from 'react'
-import './App.css'
+import React from 'react'
+import './../main.css'
 
-function Appcopy({ name, description, img }) {
+function Profile({ name, description, img }) {
 
   return (
     <>
@@ -15,4 +15,4 @@ function Appcopy({ name, description, img }) {
   )
 }
 
-export default Appcopy;
+export default Profile;
