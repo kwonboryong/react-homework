@@ -1,0 +1,64 @@
+:root {
+  --font-size: 1.7rem;
+  --line-height: 2.843rem;
+  --gray-300: #A6A6A6;
+
+  --ProfileList-height: 25.3125rem;
+  --profile-width: 14.625rem;
+  --profile-height: 18.4375rem;
+
+  --img-width: 14.625rem;
+  --img-height: 14.625rem;
+  --border-radius: 0.25rem;
+}
+
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  background: black;
+}
+
+
+.ProfileList {
+  height: var(--ProfileList-height);
+  
+  margin: 0;
+  padding: 0;
+  gap: 3.25rem;
+
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+.profile {
+  width: var(--profile-width);
+  height: var(--profile-height);
+  gap: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: var(--img-width);
+    height: var(--img-height);
+    flex-shrink: 0;
+    border-radius: var(--border-radius);
+  }
+
+  span {
+    color: var(--gray-300);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    text-align: center;
+  }
+}
+
