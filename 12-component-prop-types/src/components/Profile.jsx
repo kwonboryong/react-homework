@@ -1,5 +1,6 @@
 import React from 'react'
 import './../main.css'
+import PropTypes from 'prop-types';
 
 function Profile({ name, description, img }) {
 
@@ -17,3 +18,9 @@ function Profile({ name, description, img }) {
 
 export default Profile;
 
+
+// Profile.PropTypes = exact({
+//   name: string.isRequired,
+//   description: string.isRequired,
+//   img: string.isRequired,
+// }
