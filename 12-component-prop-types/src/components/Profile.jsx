@@ -1,6 +1,10 @@
 import React from 'react'
 import './../main.css'
 import PropTypes from 'prop-types';
+import { ProfileType } from '@/@types/types';
+
+// 속성 타입 검사
+Profile.propTypes = ProfileType;
 
 function Profile({ name, description, img }) {
 
@@ -17,10 +21,3 @@ function Profile({ name, description, img }) {
 }
 
 export default Profile;
-
-
-// Profile.PropTypes = exact({
-//   name: string.isRequired,
-//   description: string.isRequired,
-//   img: string.isRequired,
-// }
