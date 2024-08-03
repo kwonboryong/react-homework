@@ -3,19 +3,24 @@
 <br/>
 
 ### 폴더 구조
+- @types 폴더를 만들어 속성 타입 검사를 모아두는 폴더를 생성하였습니다.
 
+<br/><br/>
+
+### 느낀점 및 문제
+
+-  너무...어려웠습니다. 어찌저찌 했으나 타입 검사 자체가 낯설어서 그런지 제대로 짰는지 확신도 가지 않았습니다. 
 
 <br/>
 
-<br/><br/>
-
-### 느낀점과 문제점
-
--  
 - exact() 사용
-prop-types 패키지 안에 exact()가 있다고 생각하여 exact()를 사용하려 했으나 자꾸 exact()를 찾을 수 없다고 에러가 떴습니다. 알고보니 PropTypes와 prop-types-exact가 분리되어  prop-types-exact를 따로 설치해야 한다는 것을 알게 되었습니다.
-
-
+prop-types 패키지 안에 exact()가 있다고 생각하여 exact()를 사용하려 했으나 자꾸 exact()를 찾을 수 없다고 에러가 떴습니다. 알고보니 PropTypes와 prop-types-exact가 분리되어 prop-types-exact 패키지를 따로 설치해야 한다는 것을 알게 되었습니다.
 
 
 <br/><br/>
+
+## 피드백
+- 
+
+<br/><br/>
+
