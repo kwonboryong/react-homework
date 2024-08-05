@@ -1,9 +1,8 @@
-import { string, isRequired } from 'prop-types';
-import exact from 'prop-types-exact';
+import { string } from 'prop-types';
 
-export const ProfileType = exact({
+export const ProfileType = {
   name: string.isRequired,
-  description: string.isRequired,
-  img: string.isRequired
-});
+  img: string.isRequired,
+  description: string
+};
 
