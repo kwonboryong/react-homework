@@ -113,7 +113,7 @@ function Game() {
       />
 
       <History
-        gameHistor={gameHistory}
+        gameHistory={gameHistory}
         gameIndex={gameIndex}
         onTimeTravel={handleTimeTravel}
       />

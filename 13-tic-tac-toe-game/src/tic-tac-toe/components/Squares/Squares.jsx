@@ -15,6 +15,7 @@ Squares.propTypes = {
 function Squares({ squares, winnerInfo, onPlay }) {
   return (
     <div className={S.component}>
+      
       {/* 칸 색상 변경 */}
       {squares.map((square, index) => {
         const winnerStyle = {

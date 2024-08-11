@@ -18,7 +18,7 @@ function Board({ squares, winnerInfo, nextPlayer, onPlay, isDraw }) {
   return (
     <div className={S.component}>
       <Status 
-        winner={winnerInfo} 
+        winner={winnerInfo?.winner} 
         nextPlayer={nextPlayer} 
         isDraw={isDraw} 
       />

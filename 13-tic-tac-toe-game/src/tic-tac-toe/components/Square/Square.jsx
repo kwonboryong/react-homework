@@ -8,6 +8,8 @@ Square.propTypes = {
 };
 
 function Square({ children, onPlay, ...restProps }) {
+  
+  // 이미 말이 있는 칸에는 더 이상 액션 X
   let isDisabled = !!children;
 
   return (
