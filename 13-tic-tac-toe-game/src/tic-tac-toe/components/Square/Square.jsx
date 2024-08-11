@@ -8,8 +8,15 @@ Square.propTypes = {
 };
 
 function Square({ children, onPlay, ...restProps }) {
+  let isDisabled = !!children;
+
   return (
-    <button className={S.component} onClick={onPlay} {...restProps}>
+    <button
+      className={S.component}
+      onClick={onPlay}
+      disabled={isDisabled}
+      {...restProps}
+    >
       {children}
     </button>
   );
