@@ -4,8 +4,9 @@ import S from './Square.module.css';
 // 타입 검사
 Square.propTypes = {
   children: node,
-  onPlay: func,
+  onPlay: func
 };
+
 
 function Square({ children, onPlay, ...restProps }) {
   

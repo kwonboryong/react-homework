@@ -2,18 +2,23 @@ import { arrayOf, func, number } from 'prop-types';
 import { OneOfPlayerListType } from '@/tic-tac-toe/types/type.d';
 import S from './History.module.css';
 
+// 타입 검사
 History.propTypes = {
   gameIndex: number.isRequired,
   gameHistory: arrayOf(OneOfPlayerListType),
-  onTimeTravel: func,
+  onTimeTravel: func
 };
 
+
 function History({ gameHistory = [], gameIndex, onTimeTravel }) {
+
   const handleClick = (index) => {
+    
     return () => {
       onTimeTravel(index);
     };
   };
+
 
   return (
     <div className={S.component}>

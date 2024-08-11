@@ -42,7 +42,6 @@ export const checkWinner = (squares) => {
       };
       break;
     }
-
-    return winnerInfo;
   }
+  return winnerInfo;
 };

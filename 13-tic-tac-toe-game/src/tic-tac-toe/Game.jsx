@@ -59,7 +59,7 @@ function Game() {
 
   // 게임 진행 함수
   // - 특정 위치에 사용자가 말을 놓을 때 호출
-  const handlePlayGame = (index) => {
+  const handlePlayGame = (index) => () => {
     // 다음 게임 인덱스
     const nextGameIndex = gameIndex + 1;
     setGameIndex(nextGameIndex);
