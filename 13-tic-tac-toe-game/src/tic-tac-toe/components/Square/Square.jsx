@@ -8,7 +8,11 @@ Square.propTypes = {
 };
 
 function Square({ children, onPlay, ...restProps }) {
-  return <button></button>;
+  return (
+    <button className={S.component} onClick={onPlay} {...restProps}>
+      {children}
+    </button>
+  );
 }
 
 export default Square;
