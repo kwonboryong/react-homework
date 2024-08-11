@@ -1,5 +1,5 @@
 .component {
-  margin-top: 38px;
+  margin-top: 47px;
   min-width: 100px;
 
   ol {
@@ -11,24 +11,26 @@
   }
 
   li {
-    list-style-type: decimal-leading-zero;
+    list-style-type: none;
   }
 
   button {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    font-size: 1rem;
+    background: var(--secondary-color);
+    color: var(--primary-color);
     border: 0.5px solid transparent;
     border-radius: 4px;
-    padding: 0.4em 0.8em;
+    padding: 0.5em 0.8em;
+    margin-left: 1rem;
 
     &:hover:not(:disabled) {
-      background-color: var(--secondary-color);
-      color: var(--primary-color);
+      background-color: rgb(20, 20, 59);
+      color: var(--secondary-color);
       border-color: currentColor;
     }
 
     &:disabled {
-      opacity: 0.45;
+      opacity: 0.47;
     }
   }
 }

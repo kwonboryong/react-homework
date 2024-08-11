@@ -39,7 +39,7 @@ function Game() {
   const [gameIndex, setGameIndex] = useState(0);
 
   // 현재 게임
-  const currentSquares = gameHistory[gameIndex];
+  const currentSquares = gameHistory[gameIndex] || INITIAL_SQUARES;
 
 
   // 첫 번째 플레이어

@@ -1,11 +1,14 @@
 body {
-  margin: 40px;
-  background: #f4f4f4;
+  margin: 80px;
+  background: url('/public/space.jpg') no-repeat;
+  background-size: cover;
+  user-select: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 600;
+  color: white;
 }
 
 button {
