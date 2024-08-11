@@ -1,18 +1,16 @@
 import { func } from 'prop-types';
 import Square from './../Square/Square';
-import {
-  OneOfPlayerListType,
-  WinnerInfoType,
-} from '@/tic-tac-toe/types/type.d';
+import { OneOfPlayerListType, WinnerInfoType } from '@/tic-tac-toe/types/type.d';
 import S from './Squares.module.css';
 import { WINNER_COLOR } from '@/tic-tac-toe/constants';
 
 // 타입 검사
-Square.propTypes = {
+Squares.propTypes = {
   squares: OneOfPlayerListType.isRequired,
   winnerInfo: WinnerInfoType,
   onPlay: func,
 };
+
 
 function Squares({ squares, winnerInfo, onPlay }) {
   return (
