@@ -1,4 +1,4 @@
-# 틱택토 게임(tic-tac-toe-game)
+# 틱택토 게임(Tic-Tac-Toe Game)
 
 <br/>
 
