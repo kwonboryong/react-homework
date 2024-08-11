@@ -1,12 +1,14 @@
+import { func, node } from 'prop-types';
+import S from './Square.module.css';
 
-function Square() {
+// 타입 검사
+Square.propTypes = {
+  children: node,
+  onPlay: func,
+};
 
-  return (
-    <div>
-
-    </div>
-
-  )
+function Square({ children, onPlay, ...restProps }) {
+  return <button></button>;
 }
 
 export default Square;
